@@ -1,0 +1,12 @@
+#container{
+    width: 520px;
+    border: 1px solid black;
+    padding: 20px 40px;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+}
+li{
+    line-height: 30px;
+}

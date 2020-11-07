@@ -1,0 +1,38 @@
+body{
+    border: 3px solid gray ;
+    margin: 10px auto;
+    width: 650px;
+    padding: 10px;
+    box-shadow: 2px -2px 5px 0px rgb(182, 175, 175);
+}
+form{
+    margin: 15px;
+}
+fieldset{
+    margin-bottom: 15px;
+}
+.a1{
+    margin: 0 auto;
+    width: 148px;
+}
+legend{
+    color: rgb(153, 54, 150);
+    font-size: 20px;
+    font-weight: bolder;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-bottom: 10px;
+}
+label{
+    font-weight: bolder;
+    float: left;
+    width: 80px;
+}
+.a2 label{
+    font-weight: normal;
+    width: 210px;
+}
+

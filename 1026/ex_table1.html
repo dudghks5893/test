@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="2">
+        <caption>
+            <strong>기본표만들기</strong>
+            <p>2행3열 표 만들기</p>
+        </caption>
+        <tr>
+            <th>1행 1열(제목)</th>
+            <td>1행 2열</td>
+            <td>1행 3열</td>
+        </tr>
+        <tr>
+            <th>2행 1열(제목)</th>
+            <td>2행 2열</td>
+            <td>2행 3열</td>
+        </tr>     
+    </table>
+    <figure>
+        <figcaption>
+            <p>표의 열 합치기</p>
+        </figcaption>
+    <table border="1">
+        <colgroup>
+        <col style="width: 100px;">
+        <col style="width: 300px;">
+        <col style="width: 100px;">
+        <col style="width: 300px;">  
+        </colgroup>
+        <tr>
+            <th>이름</th>
+            <td></td>
+            <th>연락처</th>
+            <td></td>
+        </tr> 
+        <tr>
+            <th>주소</th>
+            <td colspan="3"></td>
+        </tr>
+        <tr>
+            <th>자기소개</th>
+            <td colspan="3"></td>
+        </tr>
+    </table>
+    </figure>
+    
+</body>
+</html>
